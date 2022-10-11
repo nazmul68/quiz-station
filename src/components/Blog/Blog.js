@@ -2,7 +2,7 @@ import React from "react";
 import "./Blog.css";
 import developerImg from "../../images/developer.jpg";
 import { Container } from "react-bootstrap";
-import QuestionAns from "./QuestionAns/QuestionAns";
+import QuestionAns from "../QuestionAns/QuestionAns";
 
 const Blog = () => {
   return (
