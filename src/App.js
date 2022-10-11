@@ -5,8 +5,8 @@ import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Home from "./components/Home/Home";
 import Statistics from "./components/Statistics/Statistics";
 import Topics from "./components/Topics/Topics";
+import UnPreparedMsgPage from "./components/UnPreparedMsgPage/UnPreparedMsgPage";
 import Main from "./layouts/Main";
-import UnPreparedMsgPage from "./UnPreparedMsgPage/UnPreparedMsgPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -17,14 +17,23 @@ function App() {
       children: [
         {
           path: "/",
+          loader: async () => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz`);
+          },
           element: <Home></Home>,
         },
         {
           path: "/home",
+          loader: async () => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz`);
+          },
           element: <Home></Home>,
         },
         {
           path: "/topics",
+          loader: async () => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz`);
+          },
           element: <Topics></Topics>,
         },
         {
