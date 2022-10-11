@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark" className="nav-bar">
       <Container className="d-flex">
         <div>
           <Link className="text-decoration-none fw-bold fs-3" to={"/"}>

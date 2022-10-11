@@ -14,6 +14,8 @@ link dite home
 
 \*_I hope this site (link dite hobe) is significantly improve your proramming knowledge because we try to add some competetive quiz on our site . So feel free to checkout!_
 
+\*_We also try to add some new features for our visitors || learners . Stay connected with us !_
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

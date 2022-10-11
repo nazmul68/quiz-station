@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Statistics from "./components/Statistics/Statistics";
 import Topics from "./components/Topics/Topics";
 import Main from "./layouts/Main";
+import UnPreparedMsgPage from "./UnPreparedMsgPage/UnPreparedMsgPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -33,6 +34,10 @@ function App() {
         {
           path: "/blog",
           element: <Blog></Blog>,
+        },
+        {
+          path: "/opps",
+          element: <UnPreparedMsgPage></UnPreparedMsgPage>,
         },
       ],
     },

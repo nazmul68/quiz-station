@@ -1,0 +1,16 @@
+.header {
+  background-color: #0da9fd;
+  border-radius: 30px;
+  margin: 15px;
+  padding: 20px;
+}
+.icon-div .face-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-div .face-icon:hover {
+  cursor: pointer;
+  color: rgb(238, 238, 13);
+  transition-duration: 0.3s;
+}
