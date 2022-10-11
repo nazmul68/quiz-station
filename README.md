@@ -1,4 +1,18 @@
-//**_ Perpose Of this Project Simply Describe _**//
+### Project Name
+
+Quiz Station
+
+### Visit This Site
+
+link dite home
+
+### Perpose Of this Project Simply Describe
+
+\*_I create this site using basic HTML , CSS , React-App , React-router, also using react bootstrap etc!_
+
+\*_Some important features added on this site like #Quiz_test , #Topic_Analysis, #Blogs etc. So grab this opportunity to improve your learning._
+
+\*_I hope this site (link dite hobe) is significantly improve your proramming knowledge because we try to add some competetive quiz on our site . So feel free to checkout!_
 
 # Getting Started with Create React App
 
@@ -33,7 +47,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you `eject`, you can't go back !**
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
