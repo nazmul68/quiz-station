@@ -15,7 +15,7 @@ const Topic = ({ topic }) => {
       <div className="card border-0 shadow-lg w-75 mx-auto bg-dark text-light">
         <img src={logo} className="card-img-top img-fluid" alt="topicLogo" />
         <div className="card-body">
-          <div className="d-flex d-flex justify-content-between align-items-center p-2">
+          <div className="d-md-flex justify-content-between align-items-center p-2">
             <h4 className="card-title">{name}</h4>
             <h6 className="card-text ">
               Quiz: <span className="text-danger">{total}</span>

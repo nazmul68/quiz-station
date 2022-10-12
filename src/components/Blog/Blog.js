@@ -16,8 +16,7 @@ const Blog = () => {
             <h3 className="text-start">Hello, I am Nazmul Sujon</h3>
             <p className="w-75 text-md-start">
               A web developer from Bangladesh, working on <b>Quiz Station</b>{" "}
-              especially user exprience & blog page section. This is our
-              personal
+              especially user exprience & blog page section.
             </p>
           </div>
           <div className="developer-img">

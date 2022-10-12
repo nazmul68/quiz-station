@@ -6,7 +6,7 @@ import { FaceSmileIcon } from "@heroicons/react/24/solid";
 
 const Header = () => {
   return (
-    <div className="mb-5 mt-4">
+    <div className="mb-5 mt-4 container">
       <Container className="header d-flex align-items-center justify-content-between">
         <div>
           <img src={headerImg} className="rounded-circle h-50 w-50" alt="" />

@@ -6,10 +6,10 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark" className="nav-bar">
-      <Container className="d-flex">
+      <Container className="d-flex justify-content-between">
         <div>
-          <Link className="text-decoration-none fw-bold fs-3" to={"/"}>
-            Quiz Station
+          <Link className="text-decoration-none fw-bold" to={"/"}>
+            QuizStation
           </Link>
         </div>
         <div>
@@ -17,8 +17,8 @@ const NavBar = () => {
             <NavLink
               className={({ isActive }) =>
                 isActive
-                  ? "text-decoration-none mx-2 text-light fw-bold"
-                  : " text-decoration-none mx-2 fw-bold"
+                  ? "text-decoration-none mx-2 text-light "
+                  : " text-decoration-none mx-2 "
               }
               to={"/home"}
             >
@@ -27,8 +27,8 @@ const NavBar = () => {
             <NavLink
               className={({ isActive }) =>
                 isActive
-                  ? "text-decoration-none mx-2 text-light fw-bold"
-                  : " text-decoration-none mx-2 fw-bold"
+                  ? "text-decoration-none mx-2 text-light "
+                  : " text-decoration-none mx-2 "
               }
               to={"/topics"}
             >
@@ -37,8 +37,8 @@ const NavBar = () => {
             <NavLink
               className={({ isActive }) =>
                 isActive
-                  ? "text-decoration-none mx-2 text-light fw-bold"
-                  : " text-decoration-none mx-2 fw-bold"
+                  ? "text-decoration-none mx-2 text-light"
+                  : " text-decoration-none mx-2"
               }
               to={"/statistics"}
             >
@@ -47,8 +47,8 @@ const NavBar = () => {
             <NavLink
               className={({ isActive }) =>
                 isActive
-                  ? "text-decoration-none mx-2 text-light fw-bold"
-                  : " text-decoration-none mx-2 fw-bold"
+                  ? "text-decoration-none mx-2 text-light "
+                  : " text-decoration-none mx-2"
               }
               to={"/blog"}
             >
