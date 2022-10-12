@@ -56,7 +56,7 @@ const QuizPracticePage = ({ quiz, questionData, idx }) => {
                   <small>Ans</small>
                 </div>
                 <div onClick={seeAns} className="eyeIcon-div">
-                  <EyeIcon className="icon" />
+                  <EyeIcon className="icon-eye" />
                 </div>
               </div>
             </div>

@@ -1,14 +1,6 @@
-#error-page {
-  background-image: url(../../images/error-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  background-position: center center;
-  background-attachment: fixed;
-  background-color: #464646;
-}
-
-.error-info {
-  padding-top: 370px;
+.icon {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  color: #ffc10799;
 }
