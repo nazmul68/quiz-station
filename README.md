@@ -11,7 +11,7 @@ QuizStation
 
 live site: (https://assignment9-about-react-router.netlify.app/)
 
-### Features Perpose Of this Project Simply Describe
+### Features & Perpose Of this Project Simply Describe
 
 \*_I create this site using basic HTML , CSS , React-App , React-router, also using react bootstrap e, sweetAlert2, heroIcons etc!_
 
