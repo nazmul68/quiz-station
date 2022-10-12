@@ -1,22 +1,19 @@
-### API Link-01
+### Used API Link
 
 (https://openapi.programming-hero.com/api/quiz)
-
-### API Link-02
-
 Get topic details by topic id: https://openapi.programming-hero.com/api/quiz/${id}
 
 ### Project Name
 
-Quiz Station
+QuizStation
 
 ### Visit This Site
 
-(https://assignment9-about-react-router.netlify.app/)
+live site: (https://assignment9-about-react-router.netlify.app/)
 
 ### Features
 
-\*_I trying to add some important features lik Quiz Topics route , Statistics route based on total quiz, attractive error page also added unpreparedPage route._
+\*_I trying to add some important features like Quiz Topics route , Statistics route based on total quiz,blogs route, attractive error page also added unpreparedPage route._
 
 ### Perpose Of this Project Simply Describe
 
