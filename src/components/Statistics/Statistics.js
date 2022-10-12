@@ -31,8 +31,8 @@ const Statistics = () => {
       <div>
         <LineChart
           className="mx-auto"
-          width={800}
-          height={400}
+          width={350}
+          height={300}
           data={data}
           margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
         >

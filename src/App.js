@@ -1,13 +1,13 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import Blog from "./components/Blog/Blog";
-import ErrorPage from "./components/ErrorPage/ErrorPage";
-import Home from "./components/Home/Home";
-import Quiz from "./components/Quiz/Quiz";
-import Statistics from "./components/Statistics/Statistics";
-import Topics from "./components/Topics/Topics";
 import UnPreparedMsgPage from "./components/UnPreparedMsgPage/UnPreparedMsgPage";
 import Main from "./layouts/Main";
+import Home from "./components/Home/Home";
+import Topics from "./components/Topics/Topics";
+import Statistics from "./components/Statistics/Statistics";
+import Blog from "./components/Blog/Blog";
+import Quiz from "./components/Quiz/Quiz";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 function App() {
   const router = createBrowserRouter([
