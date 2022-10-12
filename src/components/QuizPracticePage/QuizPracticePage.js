@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "react-bootstrap";
+import "./QuizPracticePage.css";
 import Swal from "sweetalert2";
+import { EyeIcon } from "@heroicons/react/24/solid";
 
 const QuizPracticePage = ({ quiz, questionData, idx }) => {
-  const { id, options, correctAnswer, question } = questionData;
+  const { options, correctAnswer, question } = questionData;
   const [option1, option2, option3, option4] = options;
-  console.log(questionData);
+  //   console.log(questionData);
 
   const validationAns = (option) => {
     if (option === correctAnswer) {
@@ -27,18 +29,40 @@ const QuizPracticePage = ({ quiz, questionData, idx }) => {
     }
   };
 
+  const seeAns = () => {
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      title: `Ans: ${correctAnswer}`,
+      showConfirmButton: false,
+      timer: 1500,
+    });
+  };
+
   return (
-    <Container className="w-75">
+    <Container>
       <h4 className="text-start text-info">
         Quiz: <span className="text-danger">{idx + 1}</span>
       </h4>
       <div>
         <div className="card border-0 shadow-lg mb-5 ">
-          <div className=" p-5">
-            <h5 className="card-title">{question}</h5>
-            <form>
-              <div className="radio py-2">
-                <label>
+          <div className="p-4">
+            <div className="d-flex p-3 justify-content-between">
+              <div className="question">
+                <h5 className="card-title text-start">{question}</h5>
+              </div>
+              <div className="d-flex">
+                <div className="me-2">
+                  <small>Ans</small>
+                </div>
+                <div onClick={seeAns} className="eyeIcon-div">
+                  <EyeIcon className="icon" />
+                </div>
+              </div>
+            </div>
+            <form className="text-start">
+              <div className="radio my-2">
+                <label className="shadow-sm px-5 py-3 rounded-2 w-100">
                   <input
                     type="radio"
                     value={option1}
@@ -49,20 +73,20 @@ const QuizPracticePage = ({ quiz, questionData, idx }) => {
                   {option1}
                 </label>
               </div>
-              <div className="radio py-2">
-                <label>
+              <div className="radio my-2">
+                <label className="shadow-sm px-5 py-3 rounded-2 w-100">
                   <input
                     type="radio"
                     value={option2}
                     name="quiz"
-                    className="mx-2 "
+                    className="mx-2"
                     onClick={() => validationAns(option2)}
                   />
                   {option2}
                 </label>
               </div>
-              <div className="radio py-2">
-                <label>
+              <div className="radio my-2">
+                <label className="shadow-sm px-5 py-3 rounded-2 w-100">
                   <input
                     type="radio"
                     value={option3}
@@ -73,8 +97,8 @@ const QuizPracticePage = ({ quiz, questionData, idx }) => {
                   {option3}
                 </label>
               </div>
-              <div className="radio py-2">
-                <label>
+              <div className="radio my-2">
+                <label className="shadow-sm px-5 py-3 rounded-2 w-100">
                   <input
                     type="radio"
                     value={option4}
